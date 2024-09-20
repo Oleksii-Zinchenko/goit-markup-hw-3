@@ -66,6 +66,10 @@ button {
 
 /* ===Header Styles=== */
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -88,7 +92,6 @@ button {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .page-nav {
   display: flex;
@@ -149,8 +152,7 @@ button {
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0px;
 }
 
 .hero-main-title {
@@ -175,7 +177,8 @@ button {
 }
 
 .order-btn {
-  max-width: 169px;
+  display: block;
+  min-width: 169px;
   height: 56px;
   margin-left: auto;
   margin-right: auto;
@@ -339,6 +342,7 @@ button {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo .logo-part {
@@ -354,8 +358,4 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.container-footer {
-  padding: 100px 0px;
 }
