@@ -88,8 +88,8 @@ button {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
-
 .page-nav {
   display: flex;
   align-items: center;
@@ -148,9 +148,13 @@ button {
   background-color: #2e2f42;
 }
 
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .hero-main-title {
   max-width: 496px;
-  padding-top: 191px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -168,24 +172,26 @@ button {
 .hero-content-wrapper {
   display: flex;
   align-items: center;
-  padding-bottom: 185px;
 }
 
-.order-service-btn {
+.order-btn {
+  max-width: 169px;
+  height: 56px;
   margin-left: auto;
   margin-right: auto;
-  padding: 16px 32px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  border-radius: 4%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
 }
 
-.order-service-btn:hover,
-.order-service-btn:focus {
+.order-btn:hover,
+.order-btn:focus {
   background-color: #404bbf;
 }
 
@@ -193,7 +199,7 @@ button {
 
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .benefits-item {
@@ -201,6 +207,7 @@ button {
 }
 
 .benefits-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -224,13 +231,18 @@ button {
 
 .team-list-item {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #fff;
 }
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  gap: 24px;
+}
+
+.team-name {
+  padding: 32px 0px;
 }
 
 .section-team-title {
@@ -273,7 +285,7 @@ button {
 /* ===Our Portfolio Section=== */
 
 .section-portfolio-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -300,11 +312,18 @@ button {
 }
 
 .portfolio-list-item {
+  max-width: 360px;
   width: calc((100% - 48px) / 3);
 }
 
 .porfolio-list-img {
   margin-bottom: 32px;
+}
+
+.portfolio-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-list-text {
@@ -325,6 +344,7 @@ button {
 .footer-logo .logo-part {
   display: inline-block;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -334,4 +354,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.container-footer {
+  padding: 100px 0px;
 }
