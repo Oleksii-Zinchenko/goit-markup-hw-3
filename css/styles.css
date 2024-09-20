@@ -172,11 +172,6 @@ button {
   color: #fff;
 }
 
-.hero-content-wrapper {
-  display: flex;
-  align-items: center;
-}
-
 .order-btn {
   padding: 16px 32px;
   display: block;
